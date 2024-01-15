@@ -12,10 +12,14 @@
   <body>
     <div class="container flex bg-black">
       <div class="left">
+        
         <!-- Home Section-->
         <div class="home bg-grey rounded m-1 p-1">
+          <div class="close">
+            <img class="invert" src="close.svg">
+          </div>
           <div class="logo">
-            <img class="invert" src="logo.svg" alt="logo" />
+            <img width="110" class="invert" src="logo.svg" alt="logo" />
           </div>
           <ul>
             <li><img class="invert" src="home.svg" alt="home" />Home</li>
@@ -96,6 +100,8 @@
       <div class="right bg-grey rounded">
         <div class="header">
           <div class="nav">
+            <div class="hamburgercontainer">
+              <img class="invert hamburger" src="hamburger.svg" alt="">
             <svg
               width="24"
               height="24"
@@ -127,6 +133,7 @@
                 stroke-linejoin="round"
               />
             </svg>
+            </div>
           </div>
           <div class="buttons">
             <button class="signupbtn">Sign Up</button>
@@ -202,15 +209,18 @@
 
             </div>
           </div>
-          <div class="songinfo"></div>
+          <div class="playbaritem">
+            <div class="songinfo"></div>
 
           <div class="songbtn">
-            <img id="previous" src="previous.svg">
-            <img id="play" src="play.svg">
-            <img id="next" src="next.svg">
+            <img width ="35" id="previous" src="previous.svg">
+            <img width ="35" id="play" src="play.svg">
+            <img width ="35" id="next" src="next.svg">
 
           </div>
           <div class="songtime"></div>
+          </div>
+          
         </div>
       </div>
     </div>
